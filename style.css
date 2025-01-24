@@ -281,222 +281,10 @@ h3 {
     width: 40px;
     height: 40px;
 }
-@media(max-width:777px){
-    .tudo{
-        overflow-x: hidden;
-        background-image: url("images/bannermobile.jpg");
-        background-repeat: no-repeat;
-     }
-        .fotoarthurp{
-            width: 460px;
-            margin-top: 10px;
-            margin-left:3px;
-        }
-        #content{
-            margin-top: 50px;
-    margin-left: 0;
-            flex-direction: column;
-        }
-    #content h1{
-        font-size: 29px;
-        color: black;
-        margin-left: 15px;
-        background-color: rgba(168, 25, 25, 0.5);
-        padding: 10px;
-        border: rgba(252, 227, 227);
-        border-radius: 10px;
-        width: 340px;
-        margin-left:8vh;
-    }
-    #content p{
-        font-size:14px;
-        width: 480px;
-        background-color: rgba(20, 0, 0, 0.5);
-        border: solid 2px #240000;
-        border-radius: 10px;
-        height: auto;
-        padding: 5px;
-        margin-left: 10px;
-    height: auto;
-    
-    }
-    #historia{
-        margin-left:0;
-        margin-bottom:0;
-    }
-    .imagemlogo{
-        margin-left: 90px;
-    }
-    .menumobile{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        margin-right: 0;
-        margin-left:200px;
-        
-    }
-    header .container{
-        flex-direction: row;
-    }
-    nav ul{
-        flex-direction: column;
-        display: none;
-        font-size: 13px;
-        margin-bottom: 20px;
-        margin-top: 15px;
-    }
-    header{
-        height: auto;
-    width: 300px;
-    justify-content: left;
-    }
-    .menumm{
-        height: 5px;
-        background-color: black;
-    }
-    .headline h1 {
-        margin-right: 10px;
-    }
-    
-    .fotoarthurp{
-        max-width: auto;
-        height: auto;
-        display: block;
-        margin-left: 30px;
-        margin-right:10px
-    }
-    #historia p{
-        margin: 0;
-        font-size: 14px;
-        margin-left: 50px;
-        height: auto;
-        width: 400px;
-    }
-    #historia h1{
-        margin: 0;
-        margin-top: 10vh;
-        margin-left: 20vh;
-        margin-bottom: 10px;
-    }
-    #gangue{
-        margin-left: 0px;
-        width:400px;
-        font-size: 13px;
-        display: block;
-        margin-top: 10px;
-    }
-    aside{
-        flex-direction: column;
-    }
-    #conflitos{
-        width: 250px;
-        margin: 0px;
-    }
-    .conteudo{
-        margin: 0;
-        flex-direction: column;
-    }
-    #gangue p{
-        width: 470px;
-    }
-    .fotogang{
-        width: 100%;
-    height: auto;
-    margin-left: 8vh;
-    
-    }
-    #gangue h1{
-        margin-left: 60px;
-        width: 300px;
-    }
-    #conflitos p{
-        width: 470px;
-    }
-    .conflitospic{
-        width: 470px;
-        margin-left: 20px;
-        height: auto;
-    }
-    #conflitos h1{
-        width: 300px;
-        margin-left: 6vh;
-        font-size: 30px;
-    }
-    #redencao{
-        margin: 10px;
-    }
-    #redencao h1{
-        margin-left: 100px;
-        width: 200px;
-        padding: 10px;
-    }
-    .redencaop{
-        width: 470px;
-        font-size: 14px;
-        margin-left: 1px;
-        text-align: justify;
-    }
-    .theendpic{
-        width: 470px;
-        height: auto;
-        margin-left: 10px;
-    }
-    footer h2{
-        text-align: left;
-        margin-left: 20px;
-    }
-    div h3{
-        font-size: 12px;
-        border-radius: 10px;
-    } 
-}
-@media(max-width:515px) {
- .tudo{
-    overflow-x: hidden;
-    background-image: url("images/bannermobile.jpg");
-    background-repeat: no-repeat;
- }
-    .fotoarthurp{
-        width: 460px;
-        margin-top: 10px;
-        margin-left:3px;
-    }
-    #content{
-        margin-top: 50px;
-margin-left: 0;
-        flex-direction: column;
-    }
-#content h1{
-    font-size: 29px;
-    color: black;
-    margin-left: 15px;
-    background-color: rgba(168, 25, 25, 0.5);
-    padding: 10px;
-    border: rgba(252, 227, 227);
-    border-radius: 10px;
-    width: 340px;
-    margin-left:8vh;
-}
-#content p{
-    font-size:14px;
-    width: 480px;
-    background-color: rgba(20, 0, 0, 0.5);
-    border: solid 2px #240000;
-    border-radius: 10px;
-    height: auto;
-    padding: 5px;
-    margin-left: 10px;
-height: auto;
 
-}
-#historia{
-    margin-left:0;
-    margin-bottom:0;
-}
-.imagemlogo{
-    margin-left: 90px;
-}
-.menumobile{
+@media(max-width:515px) {
+ /*Parte menu e visual*/
+ .menumobile{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -523,30 +311,73 @@ justify-content: left;
     height: 5px;
     background-color: black;
 }
-.headline h1 {
-    margin-right: 10px;
-}
 
-.fotoarthurp{
+    .tudo{
+    overflow-x: hidden;
+    background-image: url("images/bannermobile.jpg");
+    background-repeat: no-repeat;
+ }
+ .imagemlogo{
+    margin-left: 90px;
+}
+ 
+/*Parte Inicial*/   
+ .fotoarthurp{
     max-width: auto;
     height: auto;
     display: block;
     margin-left: 30px;
     margin-right:10px
 }
+    #content{
+        margin-top: 50px;
+margin-left: 0;
+        flex-direction: column;
+    }
+#content h1{
+    font-size: 29px;
+    color: black;
+    margin-left: 15px;
+    background-color: rgba(168, 25, 25, 0.5);
+    padding: 10px;
+    border: rgba(252, 227, 227);
+    border-radius: 10px;
+    width: 340px;
+    margin-left:8vh;
+}
+#content p{
+    font-size:14px;
+    width: 430px;
+    background-color: rgba(20, 0, 0, 0.5);
+    border: solid 2px #240000;
+    border-radius: 10px;
+    height: auto;
+    padding: 5px;
+    margin-left: 5px;
+height: auto;
+
+}
+
+/*Parte Historia*/
+#historia{
+    margin-left:0;
+    margin-bottom:0;
+}
 #historia p{
     margin: 0;
     font-size: 14px;
-    margin-left: 50px;
+    margin-left: 10px;
     height: auto;
     width: 400px;
 }
 #historia h1{
     margin: 0;
-    margin-top: 10vh;
-    margin-left: 20vh;
+    margin-top: 8vh;
+    margin-left: 15vh;
     margin-bottom: 10px;
 }
+/*Parte Gangue*/
+
 #gangue{
     margin-left: 0px;
     width:400px;
@@ -554,35 +385,29 @@ justify-content: left;
     display: block;
     margin-top: 10px;
 }
-aside{
-    flex-direction: column;
-}
-#conflitos{
-    width: 250px;
-    margin: 0px;
-}
-.conteudo{
-    margin: 0;
-    flex-direction: column;
-}
 #gangue p{
-    width: 470px;
+    width: 410px;
 }
 .fotogang{
     width: 100%;
 height: auto;
-margin-left: 8vh;
+margin-left: 5vh;
 
 }
 #gangue h1{
     margin-left: 60px;
     width: 300px;
 }
+/*Parte Conflitos*/
+#conflitos{
+    width: 250px;
+    margin: 0px;
+}
 #conflitos p{
-    width: 470px;
+    width: 410px;
 }
 .conflitospic{
-    width: 470px;
+    width: 430px;
     margin-left: 20px;
     height: auto;
 }
@@ -591,6 +416,7 @@ margin-left: 8vh;
     margin-left: 6vh;
     font-size: 30px;
 }
+/*Parte redençao*/
 #redencao{
     margin: 10px;
 }
@@ -600,16 +426,36 @@ margin-left: 8vh;
     padding: 10px;
 }
 .redencaop{
-    width: 470px;
+    width: 410px;
     font-size: 14px;
     margin-left: 1px;
     text-align: justify;
 }
 .theendpic{
-    width: 470px;
+    width: 420px;
     height: auto;
     margin-left: 10px;
 }
+
+
+.headline h1 {
+    margin-right: 10px;
+}
+
+
+
+
+aside{
+    flex-direction: column;
+}
+
+.conteudo{
+    margin: 0;
+    flex-direction: column;
+}
+
+
+
 footer h2{
     text-align: left;
     margin-left: 20px;
@@ -618,6 +464,50 @@ div h3{
     font-size: 12px;
     border-radius: 10px;
 }
+}
+@media screen and (max-width:470px){
+/*Cabeçalho*/
+    .imagemlogo{
+margin-right:60px;
+margin-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 @media (max-width:395px){
     body{
