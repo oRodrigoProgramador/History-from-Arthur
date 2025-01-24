@@ -281,7 +281,7 @@ h3 {
     width: 40px;
     height: 40px;
 }
-@media(max-width:730px){
+@media(max-width:740px){
     .tudo{
         overflow-x: hidden;
         background-image: url("images/bannermobile.jpg");
